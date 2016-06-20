@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" href="text.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="grid.css">
+
+    <link rel="stylesheet" href="intro.css">
+    <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="features.css">
+    <link rel="stylesheet" href="planet.css">
+    <link rel="stylesheet" href="fares.css">
+    <link rel="stylesheet" href="buy.css">
+    <link rel="stylesheet" href="ending.css">
+    <link rel="stylesheet" href="header.css">
+
+	<script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="parallax.js-1.4.2/parallax.min.js"></script>
+
+	<script type="text/javascript" charset="utf-8" src="planet.js"></script>
+	<script type="text/javascript" charset="utf-8" src="header.js"></script>
+</head>
+<body>
+
+
+
+	<div class="header">
+    	<div class="container buffer-both">
+      		<div class="header-logo">
+        		<img class="header-logo-image" src="rocket.png" alt="[Лучший воздух]" />
+      		</div>
+      		<div class="header-nav">
+        		<ul>
+          			<li class="header-nav-item">
+            			<a class="header-nav-link" href="#intro">О нас</a>
+          			</li>
+          			
+          			<li class="header-nav-item">
+            			<a class="header-nav-link" href="#prices">Цены</a>
+          			</li>
+          			<li class="header-nav-item">
+            			<a class="header-nav-link" href="#buy">Купить</a>
+          			</li>
+          			<li class="header-nav-item">
+            			<audio controls autoplay>            				
+                			<source src="audio/music.ogg" type="audio/ogg; codecs=vorbis"  controls="controls">
+                			<source src="audio/music.mp3" type="audio/mpeg">                 
+                			<a href="audio/music.mp3">Скачайте музыку</a>.
+            			</audio> 
+          			</li>
+        		</ul>
+      		</div>  
+      		
+                  
+    	</div>
+  	</div>
+
+    <div class="intro text-center" id="intro" data-parallax="scroll" data-image-src="bg.jpg">
+        <img class="intro-logo" src="galaxy_logo3.png" alt="[Лого]">
+
+        <h1 class="title-large text-blue">Космическая турфирма<br>"Travel horizont"</h1>
+
+        <h2 class="text-lead">Вы когда-нибудь мечтали посетить самые удаленные уголки нашей Вселенной? Увидеть, как угасает старая звезда и рождается новая? Пройтись по чужой планете? Теперь это стало возможно.<br>Не упустите свой шанс!<br>Закажите путешествие, способное навсегда изменить вашу жизнь!</h2>
+
+        <div class="buffer-both">
+            <a class="button button-blue" href="#">Купить</a>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="background text-center" data-parallax="scroll" data-image-src="bg2.jpg">
+
+        <div class="features text-center">
+            <div class="container">
+            	<div class="text-center">
+        			<h2 class="title-medium text-blue">Передовые технологии</h2>
+        			<p class="text-lead">Мы гарантируем комфортные условия и безопасность</p>
+        		</div>
+                <div class="column-1-4">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img class="icon-small" src="icons/rocket.png" alt="[Рокета]">
+                        </div>
+                        <p class="title-medium">Скоростные<br>ракеты</p>
+                        <p class="text-lead">Вам не придется тратить сотни световых лет!</p>
+                    </div>
+                </div>
+                <div class="column-1-4">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img class="icon-small" src="icons/satellite.png" alt="[Спутник]">
+                        </div>
+                        <p class="title-medium">Спутниковая<br>связь</p>
+                        <p class="text-lead">Вы всегда сможите оставаться on-line!</p>
+                    </div>
+                </div>
+                <div class="column-1-4">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img class="icon-small" src="icons/telescope.png" alt="[Телескоп]">
+                        </div>
+                        <p class="title-medium">Панорамные<br>виды</p>
+                        <p class="text-lead">Такого вы не увидите с Земли!</p>
+                    </div>
+                </div>
+                <div class="column-1-4">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img class="icon-small" src="icons/moon.png" alt="[Луна]">
+                        </div>
+                        <p class="title-medium">Высадки на<br>планеты</p>
+                        <p class="text-lead">Вы сможите почувствовать себя жителем другой планеты!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="planets" id="planet">
+        	<div class="container">
+        		<div class="text-center">
+        			<h2 class="title-medium text-blue">Иные миры</h2>
+        			<p class="text-lead">Почувствуйте безграничность Вселененной</p>
+        		</div>
+        		<div class="planets-info">    			
+        			<div class="planet-info">    				
+        				<div class="planet-details">
+        					<h3 class="title-small">Марс</h3>
+        					<small class="text-small planet-moto">Показать описание</small>
+        					<div class="planet-image planet-about">                        
+                                <img class="planet-photo" src="planets/mars.png" alt="[Марс фото]" />
+                                <p class="text-medium">
+                                    Марс — четвертая по счету планета, удаленная от Солнца и ближайшая к Земле. Этой планете приблизительно 4,6 миллиарда лет.
+                                </p>
+                                <p class="text-medium">
+                                    Название планеты произошло от имени древнего римского и греческого бога войны — АРЕС. Римляне и греки ассоциировали планету с войной из-за ее сходства с кровью. Если смотреть на Марс с Земли, то эта планета красно-оранжевого цвета. Цвет планеты такой из-за обильного содержания в почве железных минералов.
+                                </p>  
+                                <p class="text-medium">
+                                    Поверхность Марса очень разнообразна. К одним из впечатляющих особенностей относятся: система каньонов, которая гораздо глубже и длиннее, чем Гранд Каньон в США, и горная система, наивысшая точка которой гораздо выше, чем гора Эверест. Плотность атмосферы Марса в 100 раз меньше, чем атмосферы Земли. Однако это не мешает образованию таких явлений как облака и ветер. Огромные пылевые бури бушуют иногда на всей планете.
+                                </p>  
+                                <p class="text-medium text-quote">
+                                    "В дыхании Марса ощущаешь запах корицы и холодных пряных ветров, тех ветров, что вздымают летучую пыль и омывают нетленные кости, и приносят пыльцу давным-давно отцветших цветов..."<br>- Рей Брэдбери. О скитаньях вечных и о Земле
+                                </p>                            
+                            </div>   					
+        				</div>
+        			</div>
+        			<div class="planet-info">    				
+        				<div class="planet-details">
+        					<h3 class="title-small">Проксима Центавра</h3>
+        					<small class="text-small planet-moto">Показать описание</small>
+        					<div class="planet-image planet-about">                        
+                                <img class="planet-photo" src="planets/centavra.png" alt="[Проксима фото]" />
+                                <p class="text-medium">
+                                    Красный карлик, относящийся к звёздной системе Альфа Центавра, ближайшая к Земле звезда после Солнца.
+                                </p>  
+                                <p class="text-medium">
+                                    Принадлежит к классу вспыхивающих звезд. Это означает, что бурные процессы конвекции в теле звезды приводят к случайным, но сильным вспышкам на ее поверхности. Эти вспышки, имеющие ту же природу, что и солнечные вспышки, но гораздо более мощные, вызывают драматические изменения в яркости звезды.
+                                </p>  
+                                <p class="text-medium">
+                                    Бурные конвективные процессы в недрах Проксимы означают, что звезда еще не «села» на главную последовательность. Другими словами, ядерные реакции в ее недрах еще не стабилизировались. По меркам звездной эволюции, Проксима еще ребенок, хотя действительный возраст звезды сопоставим с возрастом Солнца. В будущем Проксима станет стабильной звездой, излучающей примерно в тысячу раз меньше света, чем Солнце. Как и другие красные карлики, наш ближайший сосед сжигает свое ядерное горючее очень экономно, и потому будет светить на протяжении 4 тысяч миллиардов лет — в 300 раз дольше, чем прожила наша Вселенная!
+                                </p>  
+                            </div>   					
+        				</div>
+        			</div> 
+        			<div class="planet-info">    				
+        				<div class="planet-details">
+        					<h3 class="title-small">Галактика Андромеды</h3>
+        					<small class="text-small planet-moto">Показать описание</small>
+                            <div class="planet-image planet-about">                        
+                                <img class="planet-photo" src="planets/andromeda.png" alt="[Андромеда фото]" />
+                                <p class="text-medium">
+                                    Галактика Андромеды, ближайший сосед нашего Млечного Пути, является одним из самых отдаленных объектов на небе, который можно увидеть невооруженным глазом, но только в ясную ночь и из места, где очень темное небо. Внешне галактика выглядит как красивая звездная спираль, но не все знают, что нам осталось жить в безопасности лишь нескольких миллиардов лет – галактика Андромеды движется на встречу Млечному Пути. 
+                                </p>  
+                                <p class="text-medium">
+                                    Как и Млечный путь галактика Андромеды относится к типу спиральных галактик. Плотный балдж в центре галактики окружен диском из газа, пыли и звезд. Поперечник галактики составляет 260 000 световых лет, чем более чем в 2,5 раза превышает размер Млечного Пути. Население галактики Андромеды составляет около триллиона звезд против 200-400 миллиардов нашей Галактики
+                                </p>
+                                <p class="text-medium">
+                                    Удивительно, но это маленькое туманное облачко, с видимым размером меньше полной Луны, находится более чем в 2 500 000 световых лет от Земли, дальше, любой звезды, которую вы сможете увидеть своими глазами. Также известная как M 31 галактика Андромеды, является ближайшей к Млечному Пути спиральной галактикой и она приближается с каждым днем.
+                                </p>
+                            </div>        					  					
+        				</div>
+        			</div>  			
+        		</div>
+        	</div>   	
+        </div>
+
+        <div class="prices text-center" id="prices">
+        	<div class="container buffer-both">
+        		<h2 class="title-medium text-blue">Путёвки</h2>        		
+        		<p class="text-lead">Не откладывайте путешествие своей мечты<br>Оформите кредит на специальных условиях</p>
+        	</div>
+        </div>
+
+        <div class="fares buffer-bottom-large">
+        	<div class="container">
+        		<div class="prices-fares">
+        			<div class="column-1-3">
+        				<div class="fare text-center">
+    			            <div class="fare-head">
+    				            <h2 class="title-medium">Солнечная</h2>
+    				            <h3 class="text-lead">В пределах Солнечной системы</h3>
+    				        </div>
+    				        <ul class="text-medium">
+    				            <li class="fare-features-item">5 дней</li>
+    				            <li class="fare-features-item">3 планеты</li>
+    				            <li class="fare-features-item">&nbsp;</li>
+    				            <li class="fare-features-item">Трансфер от дома до космопорта</li>
+    				        </ul>
+    				        <div class="title-medium fare-price">
+    				            70&nbsp;000&nbsp;₽
+    				        </div>    				        
+    			        </div>
+        			</div>
+        			<div class="column-1-3">
+        				<div class="fare text-center">
+    			            <div class="fare-head">
+    				            <h2 class="title-medium">Звёздная</h2>
+    				            <h3 class="text-lead">В пределах соседних звёзд</h3>
+    				        </div>
+    				        <ul class="text-medium">
+    				            <li class="fare-features-item">10 дней</li>
+    				            <li class="fare-features-item">2 звездные системы</li>
+    				            <li class="fare-features-item">&nbsp;</li>
+    				            <li class="fare-features-item">Трансфер от дома до космопорта</li>
+    				        </ul>
+    				        <div class="title-medium fare-price">
+    				            150&nbsp;000&nbsp;₽
+    				        </div>    				        
+    			        </div>
+        			</div>
+        			<div class="column-1-3">
+        				<div class="fare text-center">
+    			            <div class="fare-head">
+    				            <h2 class="title-medium">Бесконечная</h2>
+    				            <h3 class="text-lead">В пределах соседних галактик</h3>
+    				        </div>
+    				        <ul class="text-medium">
+    				            <li class="fare-features-item">3 недели</li>
+    				            <li class="fare-features-item">целая галактика</li>
+    				            <li class="fare-features-item">шикарная каюта с панорамным окном</li>
+    				            <li class="fare-features-item">Трансфер от дома до космопорта</li>
+    				        </ul>
+    				        <div class="title-medium fare-price">
+    				            400&nbsp;000&nbsp;₽
+    				        </div>    				        
+    			        </div>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+        <div class="buy" id="buy">        	
+        		<div class="text-center">
+        			<h2 class="title-medium text-blue">Заказать путёвку</h2>
+        			<p class="text-lead">Заполните форму и наши специалисты свяжутся с вами</p>
+        		</div>
+        		<form class="buy-form">
+        			<fieldset style="background-color: #3b89ec; border-radius: 3px;">        			
+        				<div class="column-1-2" style="text-align: left;">
+	        				<p class="form-input"><label for="firstname">Имя:</label><br><input type="text" name="firstname" style="border-radius: 3px;"></input></p>
+	        				<p class="form-input"><label for="secondname">Фамилия:</label><br><input type="text" name="secondname"  style="border-radius: 3px;"></input></p>
+	        				<p class="form-input"><label for="email">E-mail:</label><br><input type="text" name="email"  style="border-radius: 3px;"></input></p>
+	        				<p class="form-input"><label for="phone">Телефон:</label><br><input type="text" name="phone"  style="border-radius: 3px;"></input></p>
+	        				
+        				</div>
+        				<div class="column-1-2" style="text-align: right;">
+	        				<p class="form-input" >Выберите путёвку:</p>
+	        				<p class="form-input"><label for="secondname">"Солнечная" </label><input type="radio" name="group1"></input></p>
+	        				<p class="form-input"><label for="email">"Звёздная" </label><input type="radio" name="group1" checked></input></p>
+	        				<p class="form-input"><label for="phone">"Бесконечная" </label><input type="radio" name="group1"></input></p>	
+	        				<p class="form-input"><input type="submit" value="Заказать" class="button button-green buffer-bottom"></input></p>        				
+        				</div>
+        				
+        			</fieldset>
+        		</form>        	
+        </div>
+    </div>
+
+    <div class="ending"> 
+    	<div class="container">		  
+    		<div class="ending-details">
+    				<p class="text-large ending-quote">"Космос - это всё, что есть, что когда-либо было и когда-нибудь будет. Одно созерцание Космоса потрясает: дрожь бежит по спине, перехватывает горло, и появляется чувство, слабое, как смутное воспоминание, будто падаешь с высоты. Мы сознаём, что прикасаемся к величайшей из тайн."</p>
+    				<p class="text-medium ending-author">- Карл Саган. Космос</p>	
+    			</div> 	
+    		</div>
+    	<img class="ending-image" src="cosmo1.jpg" alt="[Галактика фото]" />
+    </div>
+
+</body>
+</html>

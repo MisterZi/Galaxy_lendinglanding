@@ -1,0 +1,36 @@
+.prices .title-small {
+  color: gray;
+}
+
+.fare, .fare-head, .fare-footer {
+  border-radius: 3px;
+}
+
+.fare-head, .fare-footer {
+  background: #3b89ec;
+  color: white;
+  padding: 20px 0;
+}
+
+.fare {
+  background: #59a3fc;
+  border-bottom: 1px solid #307edc;
+  border-right: 1px solid #307edc;
+  width: 90%;
+  margin: auto;
+}
+
+.fare-head {
+  border-bottom: 1px solid #307edc;
+}
+
+.fare .fare-price {
+  font-weight: normal;
+}
+
+.fare-features-item {
+  list-style: none;
+  padding-left: 0;
+  margin: 20px 0;
+}
+

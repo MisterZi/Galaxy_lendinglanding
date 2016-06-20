@@ -1,0 +1,21 @@
+.ending {
+}
+
+.ending-details{
+	padding: 20px;
+}
+
+.ending-image {
+	width: 100%;
+	height: auto;
+}
+
+.ending-quote {	
+	text-align: left;
+	font-style: italic;
+}
+
+.ending-author {
+	padding-top: 10px;	
+	text-align: right;	
+}

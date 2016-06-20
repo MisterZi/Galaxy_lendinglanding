@@ -1,0 +1,42 @@
+.planets {
+  padding: 40px 0;
+  /*background: black;*/
+}
+
+.planets-info {  
+}
+
+.planet-info {
+  padding-top: 40px;
+  clear: both;    
+}
+
+.planet-image {
+  display: inline-block;
+  /*float: left;*/
+  max-width: 540px;
+}
+
+.planet-photo {
+
+  width: 100%;
+}
+
+.planet-details {
+  display: inline-block;
+  /*max-width: 270px;*/
+  /*margin-left: 20px;*/
+}
+
+.planet-details .text-small {
+  display: block;
+  color: #ff2a68;
+}
+
+.planet-details .text-small:hover {
+  cursor: pointer;
+}
+
+.planet-details .text-medium {
+  margin-bottom: 20px;
+}

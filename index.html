@@ -30,7 +30,7 @@
 	<div class="header">
     	<div class="container buffer-both">
       		<div class="header-logo">
-        		<img class="header-logo-image" src="rocket.png" alt="[Лучший воздух]" />
+        		<img class="header-logo-image" src="pic/rocket.png" />
       		</div>
       		<div class="header-nav">
         		<ul>
@@ -49,8 +49,8 @@
     	</div>
   	</div>
 
-    <div class="intro text-center" id="intro" data-parallax="scroll" data-image-src="bg.jpg">
-        <img class="intro-logo" src="galaxy_logo3.png" alt="[Лого]">
+    <div class="intro text-center" id="intro" data-parallax="scroll" data-image-src="pic/bg.jpg">
+        <img class="intro-logo" src="pic/galaxy_logo3.png" alt="[Лого]">
 
         <h1 class="title-large text-blue">Космическая турфирма<br>"Travel horizon"</h1>
 
@@ -61,7 +61,7 @@
         </div>
     </div>
 
-    <div class="background text-center" data-parallax="scroll" data-image-src="bg2.jpg">
+    <div class="background text-center" data-parallax="scroll" data-image-src="pic/bg2.jpg">
 
         <div class="features text-center">
             <div class="container">
@@ -241,30 +241,34 @@
         	</div>
         </div>
 
-        <div class="buy" id="buy">        	
-        		<div class="text-center">
-        			<h2 class="title-medium text-blue">Заказать путёвку</h2>
-        			<p class="text-lead">Заполните форму и наши специалисты свяжутся с вами</p>
-        		</div>
-        		<form class="buy-form">
-        			<fieldset style="background-color: #3b89ec; border-radius: 3px;">        			
-        				<div class="column-1-2" style="text-align: left;">
-	        				<p class="form-input"><label for="firstname">Имя:</label><br><input type="text" name="firstname" style="border-radius: 3px;"></input></p>
-	        				<p class="form-input"><label for="secondname">Фамилия:</label><br><input type="text" name="secondname"  style="border-radius: 3px;"></input></p>
-	        				<p class="form-input"><label for="email">E-mail:</label><br><input type="text" name="email"  style="border-radius: 3px;"></input></p>
-	        				<p class="form-input"><label for="phone">Телефон:</label><br><input type="text" name="phone"  style="border-radius: 3px;"></input></p>
-	        				
-        				</div>
-        				<div class="column-1-2" style="text-align: right;">
-	        				<p class="form-input" >Выберите путёвку:</p>
-	        				<p class="form-input"><label for="secondname">"Солнечная" </label><input type="radio" name="group1"></input></p>
-	        				<p class="form-input"><label for="email">"Звёздная" </label><input type="radio" name="group1" checked></input></p>
-	        				<p class="form-input"><label for="phone">"Бесконечная" </label><input type="radio" name="group1"></input></p>	
-	        				<p class="form-input"><input type="submit" value="Заказать" class="button button-green buffer-bottom"></input></p>        				
-        				</div>
-        				
-        			</fieldset>
-        		</form>        	
+        <div class="buy" id="buy">
+			<div class="container">
+				<div class="text-center">
+					<h2 class="title-medium text-blue">Заказать путёвку</h2>
+					<p class="text-lead">Заполните форму и наши специалисты свяжутся с вами</p>
+				</div>
+				<form>
+					<fieldset>
+						<div class="column-1-3 text-left">
+							<p class="form-input"><label for="firstname">Имя:</label><br><input type="text" name="firstname"></p>
+							<p class="form-input"><label for="secondname">Фамилия:</label><br><input type="text" name="secondname"></p>
+							<p class="form-input"><label for="email">E-mail:</label><br><input type="text" name="email"></p>
+							<p class="form-input"><label for="phone">Телефон:</label><br><input type="text" name="phone"></p>
+						</div>
+						<div class="column-1-3 text-left">
+							<p class="form-input"><label for="firstname">Пожелания:</label><br><textarea type="text" name="wishes"></textarea></p>
+						</div>
+						<div class="column-1-3 text-left">
+							<p class="form-input">Выберите путёвку:</p>
+							<p class="form-input"><input type="radio" name="group1"> "Солнечная" </input></p>
+							<p class="form-input"><input type="radio" name="group1" checked> "Звёздная"</input></p>
+							<p class="form-input"><input type="radio" name="group1"> "Бесконечная"</input></p>
+							<p class="form-input"><input type="submit" value="Заказать" class="button button-green buffer-bottom"></p>
+						</div>
+
+					</fieldset>
+				</form>
+			</div>
         </div>
     </div>
 
@@ -275,7 +279,7 @@
     				<p class="text-medium ending-author">- Карл Саган. Космос</p>	
     			</div> 	
     		</div>
-    	<img class="ending-image" src="cosmo1.jpg" alt="[Галактика фото]" />
+    	<img class="ending-image" src="pic/cosmo1.jpg" alt="[Галактика фото]" />
     </div>
 
 </body>

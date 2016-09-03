@@ -1,13 +1,21 @@
-.buy-form {
-	max-width: 400px;
-	margin-left: auto;
-    margin-right: auto;
-}
-
-.form-elements {
-	/*margin: 20px;*/
-}
-
 .form-input {
 	margin: 20px;
+}
+
+fieldset {
+	background-color: #3b89ec;
+	border-radius: 3px;
+}
+
+input[type="text"] {
+	font-size: 16px;
+	height: 20px;
+	width: 200px;
+	border-radius: 3px;
+}
+textarea {
+	width: 100%;
+	min-height: 210px;
+	border-radius: 3px;
+	resize: none;
 }

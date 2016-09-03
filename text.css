@@ -45,6 +45,9 @@ body {
     padding-bottom: 20px;
     text-align: center;
 }
+.text-left {
+    text-align: left;
+}
 
 .text-quote {
     font-style: italic;

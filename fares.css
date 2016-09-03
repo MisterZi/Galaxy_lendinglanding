@@ -14,10 +14,9 @@
 
 .fare {
   background: #59a3fc;
-  border-bottom: 1px solid #307edc;
-  border-right: 1px solid #307edc;
   width: 90%;
   margin: auto;
+  border: 1px solid white;
 }
 
 .fare-head {
